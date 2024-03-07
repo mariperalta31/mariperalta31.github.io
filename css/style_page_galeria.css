@@ -1,0 +1,283 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", sans-serif;
+}
+header, nav, main, footer{
+    width: 100%;
+    margin: 0 auto;
+    color: dodgerblue;
+    padding: 30px;
+    font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+}
+body header h1 {
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: normal;
+}
+body footer h6 {
+    font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+    font-weight: lighter;
+}
+main section p {
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    font-weight: normal;
+}
+#section_contacto section label {
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+}
+section form label {
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+}
+#section_contacto section {
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+}
+#section_contacto section #birthday {
+    font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+}
+#section_contacto section input {
+    font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+}
+#section_contacto section select {
+    font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+}
+#section_contacto section label {
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+}
+header{
+    height: 50px;
+    background-color: skyblue;
+    text-align: center;
+}
+nav{
+    height: 30px;
+    background-color: powderblue;
+    text-align: center;
+}
+main{
+    height: auto;
+    background-color: steelblue;
+    text-align: center;
+}
+footer{
+    height: 80px;
+    background-color: powderblue;
+    text-align: center;
+}
+section{
+    width: 60%;
+    height: auto;
+    background-color: lightblue;
+    margin: 20px;
+    display: inline-block;
+    padding: 20px;
+}
+a{
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 20px;
+}
+a:link,a:visited{
+    color: deepskyblue;
+}
+a:hover{
+    color: aqua;
+}
+table{
+    width: 80%;
+    border: 5px solid dodgerblue;
+    margin: 30px auto;
+    border-collapse: collapse;
+}
+body nav a {
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+}
+body footer h5 {
+    font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+    font-weight: lighter;
+}
+table td,table th{
+    border: 2px solid dodgerblue;
+    font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+}
+table th{
+    background-color: cyan;
+    color: cornflowerblue;
+    height: 50px;
+}
+table td{
+    /*color: blue;*/
+    height: 30px;
+    padding: 10px;
+}
+.tabla_dos{
+    width: 80%;
+    /*background-color: crimson;*/
+}
+.tabla_dos td{
+    background-color: transparent;
+    color: mediumblue;
+    font-weight: bold;
+    font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+}
+.tabla_dos th, #tabla_dos td{
+    border: 2px solid blue;
+}
+tr:hover{
+    background-color: darkturquoise;
+	color: #3E4FCD;
+}	
+/*tr:hover{
+	background-color: aquamarine;
+	color: crimson;
+}*/
+.tabla_dos tr td:hover{
+	background-color: darksalmon;
+	color: firebrick;
+}
+#tabla_tres{
+	
+}
+#tabla_tres tr:nth-child(even){
+	background-color: #4CBBF5;
+	color: darkorchid;
+}   
+#tabla_tres tr:nth-child(odd){
+	background-color: #8AC5EB;
+	color: darkblue;
+}
+.imagen_perfil{
+	width: 30%;
+	height: auto;
+}body nav ul {
+    list-style-type: none;
+}
+nav ul li {
+    display: inline-block;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+}
+ul li a {
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+}
+#fmensaje {
+}
+main section form {
+    padding: 50px;
+    width: 50%;
+}
+section form label {
+    font-weight: bold;
+    font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+    text-align: left;
+    display: block;
+}
+input[type=text]  ,input[type=email]{
+    width: 100%;
+    margin-top: 5px;
+    padding: 5px;
+    margin-bottom: 5px;
+    color: #1875D0;
+    background-color: #C8F3F8;
+}
+#fmensaje {
+    width: 100%;
+    height: 100px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    background-color: #C8F3F8;
+    color: #1875D0;
+}
+section form input[type=submit] {
+    width: 30%;
+    height: 30px;
+    background-color: #77E4FC;
+    color: #2066D8;
+    font-weight: bold;
+    font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+    border: 2px solid #256BEA;
+}
+#section_contacto {
+    color: transparente;
+    background-color: transparent;
+}
+.img_galeria {
+    width: 101%;
+    height: auto;
+}
+.tabla_galeria {
+    border: none;
+}
+.tabla_galeria td {
+    border: none;
+    width: 100px;
+    height: auto;
+}
+main section h1 {
+    font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+}
+#section_contacto section #favcolor {
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+#section_contacto section input {
+}
+body header h1 {
+    font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+}
+section div a {
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    font-weight: normal;
+}
+main section img {
+    width: 90%;
+    height: auto;
+}
+.animate_animated {
+}
+.animate_flash {
+}
+.animate_repeat-3 {
+}
+.animate__animated {
+}
+.animate__flash {
+}
+.animate__repeat-3 {
+}
+.animate__bounce {
+}
+.animate__heartBeat {
+}
+.animate__delay-2s {
+}
+.animate__delay-3s {
+}
+.animate__delay-4s {
+}
+.animate__flipInX {
+}
+.animate__flipInY {
+}
+.animate__slow {
+}
+.animate_slow {
+}
+.animate__delay-5s {
+}
+.animate__flip {
+}
+.animate__jello {
+}
+.animate__pulse {
+}
+.animate__fast {
+}
+.animate__animated.animate__flip.animate_slow.animate__delay-5s {
+    width: 63%;
+}
+.animate__infinite {
+}
+.imagen_perfil {
+    width: 58%;
+    border-width: 58px;
+}
